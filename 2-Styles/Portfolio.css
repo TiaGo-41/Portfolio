@@ -1,0 +1,139 @@
+/* Importation des polices et des symboles */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+*{
+    /*
+    margin-top: 2;
+    margin-left: 2;
+    margin-bottom: 2;
+    margin-right: 2;
+    */
+    margin: 0;
+    padding: 0;
+    /*border-radius: 20px;*/
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.slider{
+    width:100% ;
+    height: 80vh;
+    background-color: black;
+    position: relative;
+}
+
+.slider-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(100%);
+}
+
+.slider-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+
+.H1SC{
+    color: azure;
+    font-size: 5rem;
+}
+.slider-content p{
+    color:aliceblue;
+    font-size: 2rem;
+
+}
+
+/* a propos de moi*/
+.section{
+    padding: 100px 0;
+}
+
+.boxed{
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.W40{
+    width: 40%;
+}
+.W60{
+    width: 60%;
+}
+
+.H2SB{
+    font-size: 3rem;
+}
+
+.p{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+
+/* les blacks */
+
+.dark{
+    background-color: #d6881b;
+    color: aliceblue;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*.html-logo{
+    width: 150px;
+}*/
+
+.W25{
+    width: 25%;
+}
+
+.skill{
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skill img{
+    width: 130px;
+}
+
+.skill h3{
+    margin-top: 10px;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.phpname{
+    color: black;
+}
+
+.skill-nul{
+    background-color: #d6881b;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
